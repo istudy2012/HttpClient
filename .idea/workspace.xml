@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4487d223-1934-4c18-b4c5-189118f36e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/httpclient/socket/URLParams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/httpclient/util/HttpHelper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/httpclient/socket/HttpSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/httpclient/socket/HttpSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/httpclient/HttpClientTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/httpclient/HttpClientTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
   </component>
   <component name="ProjectId" id="1OlJyNsDXsmIXmRL4Ct96xWsNeO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,6 +93,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="HttpClientTest.url_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;httpclient.HttpClientTest.url_test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MainTest.call_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HttpClientTest.url_test" />
         <item itemvalue="Gradle.HttpClientTest.call_test" />
         <item itemvalue="Gradle.MainTest.call_test" />
         <item itemvalue="Application.Main" />
@@ -139,20 +154,6 @@
       <updated>1564385005133</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MainTest_call_test - 2019.07.30 at 10h 48m 21s.xml">
-      <configuration name="MainTest.call_test" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MainTest_call_test - 2019.07.30 at 10h 48m 44s.xml">
-      <configuration name="MainTest.call_test" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MainTest_call_test - 2019.07.30 at 10h 57m 55s.xml">
-      <configuration name="MainTest.call_test" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HttpClientTest_call_test - 2019.07.30 at 10h 58m 13s.xml">
-      <configuration name="HttpClientTest.call_test" configurationId="GradleRunConfiguration" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
